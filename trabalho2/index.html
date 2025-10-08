@@ -1,1 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single Page</title>
+  </head>
+</html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PUF - Pague uma Fortuna</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">PUF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cursos">Cursos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+        <li class="nav-item"><a class="nav-link" href="#depoimentos">Depoimentos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselPUF" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" style="height: 800px;">
+    <div class="carousel-item active">
+      <img src="AlunoEstudando.avif" class="d-block w-100 h-100" style="object-fit: cover;" alt="Alunos estudando">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Estudo e Dedicação</h5>
+        <p>Alunos comprometidos com o futuro</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="AlunoBiblioteca.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Biblioteca da PUF">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Infraestrutura Moderna</h5>
+        <p>Ambiente ideal para o aprendizado</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="AlunoSaladeAula.jpg" class="d-block w-100 h-100" style="object-fit: cover;" alt="Alunos em sala de aula">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Excelência Acadêmica</h5>
+        <p>Professores e alunos unidos pelo conhecimento</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselPUF" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselPUF" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<section id="sobre" class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-3">
+        <h2>Sobre a PUF</h2>
+        <p>A Pontifícia Universidade do Futuro (PUF) é uma instituição de ensino superior que visa formar profissionais de excelência em diversas áreas do conhecimento. Nosso compromisso é unir ensino, pesquisa e inovação para preparar cidadãos conscientes e transformadores.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="LogoFaculdade.png" class="img-fluid rounded" alt="Sobre a PUF">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cursos" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Nossos Cursos</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simboloagronomia.png" alt="Símbolo Agronomia"
+                style="width: 80px; height: auto;" class="mb-10">
+            <h5 class="card-title">Agronomia</h6>
+            <p class="card-text">Professor: João Pedro Cordeiro</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolo-zootecnia.jpg" alt="Símbolo Zootecnia"
+                style="width: 80px; height: auto;" class="mb-10">
+            <h5 class="card-title">Zootecnia</h5>
+            <p class="card-text">Professor: Carlos Vinicius Scheffer</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="símbolo-veterinário.webp" alt="Símbolo Medicina Veterinária"
+                style="width: 60px; height: auto;" class="mb-10">
+            <h5 class="card-title">Medicina Veterinária</h5>
+            <p class="card-text">Professora: Tais Seranto</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolo-medicina.jpg" alt="Símbolo Medicina"
+                style="width: 60px; height: auto;" class="mb-10">
+            <h5 class="card-title">Medicina</h6>
+            <p class="card-text">Professora: Eloisa Maria Campos</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolo-da-odontologia2.png" alt="Símbolo Odontologia"
+                style="width: 100px; height: auto;" class="mb-10">
+            <h5 class="card-title">Odontologia</h5>
+            <p class="card-text">Professor: Igor Delmonaco</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolofisioterapia.png" alt="Símbolo Fisioterapia"
+                style="width: 60px; height: auto;" class="mb-10">
+            <h5 class="card-title">Fisioterapia</h5>
+            <p class="card-text">Professora: Larissa Lira</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolo-de-direito.png" alt="Símbolo Direito"
+                style="width: 60px; height: auto;" class="mb-10">
+            <h5 class="card-title">Direito</h5>
+            <p class="card-text">Professor: Kauan Ferrari</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <div class="card-body text-center">
+            <img src="simbolo-moda2.png" alt="Símbolo Moda"
+                style="width: 200px; height: auto;" class="mb-10">
+            <h5 class="card-title">Moda</h5>
+            <p class="card-text">Professora: Lais Seranto</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="equipe" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Nossa Equipe</h2>
+    <div class="row g-4 justify-content-center align-items-stretch">
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoJoaoPedro.jpeg" class="card-img-top team-img" alt="Professor João Pedro">
+          <div class="card-body">
+            <h5 class="card-title">João Pedro Cordeiro</h5>
+            <p class="card-text">Professor de Agronomia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoVinicius.jpeg" class="card-img-top team-img" alt="Professor Carlos">
+          <div class="card-body">
+            <h5 class="card-title">Carlos Vinicius Scheffer</h5>
+            <p class="card-text">Professor de Zootecnia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoIgor.jpeg" class="card-img-top team-img" alt="Professor Igor">
+          <div class="card-body">
+            <h5 class="card-title">Igor Delmonaco</h5>
+            <p class="card-text">Professor de Odontologia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoKauan.jpeg" class="card-img-top team-img" alt="Professor Kauan">
+          <div class="card-body">
+            <h5 class="card-title">Kauan Ferrari</h5>
+            <p class="card-text">Professor de Direito</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoTais.jpeg" class="card-img-top team-img" alt="Professora Tais">
+          <div class="card-body">
+            <h5 class="card-title">Tais Seranto</h5>
+            <p class="card-text">Professora de Medicina Veterinária</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoEloisa.png" class="card-img-top team-img" alt="Professora Eloisa">
+          <div class="card-body">
+            <h5 class="card-title">Eloisa Maria Campos</h5>
+            <p class="card-text">Professora de Medicina</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoLais.jpeg" class="card-img-top team-img" alt="Professora Lais">
+          <div class="card-body">
+            <h5 class="card-title">Lais Seranto</h5>
+            <p class="card-text">Professora de Moda</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoLarissa.jpeg" class="card-img-top team-img" alt="Professora Larissa">
+          <div class="card-body">
+            <h5 class="card-title">Larissa Lira</h5>
+            <p class="card-text">Professora de Fisioterapia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card text-center h-100">
+          <img src="FotoMikaeCami.jpg" class="card-img-top team-img" alt="Mikaella e Camila - Direção">
+          <div class="card-body">
+            <h5 class="card-title">Mikaella Borges & Camila Correia</h5>
+            <p class="card-text">Diretoras</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .team-img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .direcao-img {
+    height: 300px;
+    object-fit: cover;
+  }
+</style>
+
+<!-- Depoimentos -->
+<section id="depoimentos" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Depoimentos</h2>
+    <div id="carouselDepoimentos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <blockquote class="blockquote">
+            <p>“A PUF mudou minha forma de enxergar a carreira profissional.”</p>
+            <footer class="blockquote-footer">Ana Souza, ex-aluna</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“Professores incríveis, sempre disponíveis para ajudar.”</p>
+            <footer class="blockquote-footer">Lucas Oliveira, aluno</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“A infraestrutura da PUF é impecável e facilita muito o estudo.”</p>
+            <footer class="blockquote-footer">Maria Fernandes, aluna</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“Encontrei oportunidades e amigos que mudaram meu futuro.”</p>
+            <footer class="blockquote-footer">Pedro Henrique, aluno</footer>
+          </blockquote>
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“Os professores da PUF estão sempre próxima dos estudantes.”</p>
+            <footer class="blockquote-footer">Juliana Costa, aluna</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/myznjjrd"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+<footer id="contato" class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p class="mb-2">&copy; 2025 PUF - Pague uma Fortuna</p>
+    <div>
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook fs-4"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-instagram fs-4"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter fs-4"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-linkedin fs-4"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
